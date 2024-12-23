@@ -42,7 +42,8 @@ print(7 - 3)  # Subtraction
 print(3 * 9)  # Multiplication
 print(24 / 4)  # Division - Always results in a floating point number (Implicit Type Casting)
 print(24 // 4)  # Floor Division - This division returns the integer part of the result
-print(2 ** 3)  # Exponent - when you want to raise a number to a power
+print(2 ** 3)  # Exponent - When you want to raise a number to a power
+print(10 % 5)  # Modulo - Returns the remainder of a division
 
 # PEMDAS = Parentheses, Exponents, Multiplication/Divison, Addition/Subtraction
 print(3 * (3 + 3) / 3 - 3)
