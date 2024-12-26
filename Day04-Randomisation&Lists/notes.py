@@ -30,5 +30,5 @@ print(fruits[-1])  # Output: "Pear"
 fruits.append("Grape")  # list.append = add an item to the end of the list
 print(fruits)
 
-fruits.extend(["Papaya", "Apricot", "Kiwi"])
+fruits.extend(["Papaya", "Apricot", "Kiwi"])  # Extend the list by appending all the new items from the iterable
 print(fruits)
