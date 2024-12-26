@@ -32,3 +32,17 @@ print(fruits)
 
 fruits.extend(["Papaya", "Apricot", "Kiwi"])  # Extend the list by appending all the new items from the iterable
 print(fruits)
+
+# How to get a random item from a list?
+# 1st option ->  random.choice = Selects a random item from a sequence (like a list, tuple, or string)
+print(random.choice(fruits))
+# 2nd option ->
+random_index = random.randint(0, 7)
+print(fruits[random_index])
+
+# Nested List
+vegetables = ["Carrot", "Cucumber", "Onion"]
+meat = ["Chicken", "Bacon", "Pork"]
+
+food = [vegetables, meat]
+print(food)
